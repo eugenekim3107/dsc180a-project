@@ -57,7 +57,7 @@ def main():
     y = data["label"]
 
     tokenizer = word_tokenize
-    classifier = word2vec(X, tokenizer, vector_size=300, window=15, min_count=2)
+    classifier = word2vec(X, tokenizer, vector_size=350, window=20, min_count=3, workers=15, sg=0)
 
     pred = classifier.classify(seedwords)
 
