@@ -7,7 +7,7 @@ To replicate the results, follow these steps:
 # Prerequisites
 Ensure you have Anacodna installed on your system to manage the project dependencies.
 
-# Cloning the Repository
+# Cloning the Repository and Getting Necessary Data
 Clone this repository (which contains all the necessary data) to your local machine using:
 ```
 git clone https://github.com/eugenekim3107/dsc180a-project.git
